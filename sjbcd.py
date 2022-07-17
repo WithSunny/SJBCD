@@ -104,14 +104,14 @@ def train(train_indexs1, train_indexs2, train_labels, model, model_save_path, ep
         draw(hist)
 
 if __name__ == '__main__':
-    train_file = 'D:/files/postgraduation/routine/me/ours/sjbcd/dataset/CompiledBCB_train.csv'
-    test_file ='D:/files/postgraduation/routine/me/ours/sjbcd/dataset/CompiledBCB_test.csv'
+    train_file = 'sjbcd/dataset/CompiledBCB_train.csv'
+    test_file ='sjbcd/dataset/CompiledBCB_test.csv'
     max_opcodes_length = 300
-    tokenizer_save_path = 'D:/files/postgraduation/routine/me/ours/sjbcd/something_files/tokenizer-bcb.pkl'
-    embedding_model_file = 'D:/files/postgraduation/routine/me/ours/sjbcd/something_files/opcode2v_glove200.mod'
-    embedding_matrix_path = 'D:/files/postgraduation/routine/me/ours/sjbcd/something_files/embedding_glove200_matrix.npy'
+    tokenizer_save_path = 'sjbcd/something_files/tokenizer-bcb.pkl'
+    embedding_model_file = 'sjbcd/something_files/opcode2v_glove200.mod'
+    embedding_matrix_path = 'sjbcd/something_files/embedding_glove200_matrix.npy'
     embedding_dim = 200
-    model_save_path = 'D:/files/postgraduation/routine/me/ours/sjbcd/something_files/sjbcd_glove200.h5'
+    model_save_path = 'sjbcd/something_files/sjbcd_glove200.h5'
     epochs = 15
     batch_size = 1000
 
