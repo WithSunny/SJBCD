@@ -11,7 +11,7 @@
 ---
 This code draws on the idea of the code of this link: https://github.com/zqhZY/semanaly
 ### The SJBCD Model 
-![SJBCD Model]([https://github.com/zzjss12/assets/raw/Binary-code-clone/DeepBCCD_model.drawio.svg](https://github.com/WithSunny/SJBCD/blob/PAP/something_files/Dfig5.drawio.svg))
+![SJBCD Model]([(https://github.com/WithSunny/SJBCD/blob/PAP/something_files/Dfig5.drawio.svg)]
 
 ## Install 🐙
 It is recommended that you install a conda environment and then install the dependent packages with the following command：
