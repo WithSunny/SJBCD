@@ -12,7 +12,7 @@
 This code draws on the idea of the code of this link: https://github.com/zqhZY/semanaly
 ### The SJBCD Model 
 ![SJBCD Model](https://github.com/WithSunny/SJBCD/blob/PAP/something_files/Dfig5.drawio.svg)
-<img src="https://github.com/WithSunny/SJBCD/blob/PAP/something_files/Dfig5.drawio.svg" alt="模型示意图" width="500" height="375">
+<img src="https://github.com/WithSunny/SJBCD/blob/PAP/something_files/Dfig5.drawio.svg" alt="模型示意图" width="750" height="550">
 <img src="https://github.com/WithSunny/SJBCD/blob/PAP/something_files/Dfig5.drawio.svg" alt="模型示意图" style="max-width: 10%;">
 ## Install 🐙
 It is recommended that you install a conda environment and then install the dependent packages with the following command：
