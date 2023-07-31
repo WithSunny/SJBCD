@@ -19,7 +19,7 @@ It is recommended that you install a conda environment and then install the depe
 conda create -n SJBCD -y python==3.7.19 && conda activate SJBCD
 pip install -r requirements.txt
 ```
-PS:If you don't have a GPU, you can also install it with the command pip install tersorflow==1.11.0 , running on the CPU.
+PS:If you don't have a GPU, you can also install it with the command pip install tersorflow==2.11.0 , running on the CPU.
 
 ## Usage 💡
 1. git clone the project.
@@ -53,7 +53,7 @@ The “CompiledBCB_opcode” directory contains the bytecode dataset, which is s
 | FA-AST                |   0.988   | 0.988  |  0.988   |
 
 ## Maintainers 👷
-* @zzjss12
+* @WithSunny
 
 ## License ⚖️
 GPL
