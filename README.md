@@ -16,7 +16,7 @@ This code draws on the idea of the code of this link: https://github.com/zqhZY/s
 ## Install 🐙
 It is recommended that you install a conda environment and then install the dependent packages with the following command：
 ```
-conda create -n DeepBCCD37 -y python==3.7.16 && conda activate DeepBCCD37
+conda create -n SJBCD -y python==3.7.19 && conda activate SJBCD
 pip install -r requirements.txt
 ```
 
