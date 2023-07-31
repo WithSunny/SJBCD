@@ -24,24 +24,20 @@ ps:If you don't have a GPU, you can also install it with the command pip install
 ## Usage 💡
 1. git clone the project.
 ```
-git clone https://github.com/zzjss12/DeepBCCD.git -d your_profile
+git clone https://github.com/WithSunny/SJBCD.git -d your_profile
 ```
 2. Go inside the project folder(IDE) and open your terminal.
 3. See  [Install](##install) to install the environment.
-4. run the command `python run.py --train true --test true` to start.
-
-## Exemples 🖍
-We trained with the **A5000** GPU.
-```
-python run.py --train true --test true --w2v_dim 100 --batch_size 512--max_block_seq 20--num_block 20 --iter_level 5 
-```
+4. run the command 'python sjbcd.py' or 'python sjbcd_cos.py' to start training.
+5. run the command 'python evaluation.py' to test.
 
 ## Documentation 📄
-For a more detailed description of the contents of DeepBCCD, please refer to our paper-----
+For a more detailed description of the contents of SJBCD, please refer to our paper(Please wait).
 
 ## Datasets 👩‍💻
-For the datasets, we used the datasets **BinaryCorp-3M**（https://github.com/vul337/jTrans) in the Jtrans paper. To conform to the input format according to the DeepBCCD model, We re-extracted the binary function set from the source binary and formed the **dataset_train.csv** and **dataset_test.csv** datasets，which are also essentially derived from Binarycorp-3M.
-For the **BinaryCrop-26M** dataset, we will try it in the future because it requires a larger training resource。					
+The method employs a dataset obtained from BigCloneBench [BigCloneBench](https://github.com/clonebench/BigCloneBench). From this dataset, we extract the compilable data, resulting in two distinct datasets: CompiledBCB_source and CompiledBCB_opcode.
+
+The “CompiledBCB_opcode” directory contains the bytecode dataset, which is specifically utilized by the SJBCD method. On the other hand, the “CompiledBCB_source” directory stores the dataset consisting of bytecode source code. This dataset is primarily employed by other methods.					
 
 The dataset used in DeepBCCD [download](https://efss.qloud.my/index.php/s/a2B2S9rNwdXkmBo).
 ## Evaluation 🍰
