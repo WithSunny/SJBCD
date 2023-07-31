@@ -1,31 +1,16 @@
 This code draws on the idea of the code of this link: https://github.com/zqhZY/semanaly
 <div align="center">
-  <br>
-  <br>
   <p>
     <b>SJBCD</b>
   </p>
   <p>
-     <i>DeepBCCD is designed to detect binary code similarities. DeepBCCD has made great improvements on the basis of the Gemini method, DeepBCCD not only uses the CFG structure information in the upper binary code, but also uses the LSTM network to extract the sequence information between the binary code instructions.</i>
+	     <i>SJBCD is designed to detect java bytecode similarities. SJBCD extracts opcode sequence from bytecode file, vectorizes opcode with Glove, and constructs Siamese neural network based on GRU for supervised training. The trained network is then used to detect code clones.</i>
   </p>
 </div>
 
 ---
 
-**Content**
-
-* [Description](##description)
-* [Install](##install)
-* [Usage](##usage)
-* [Exemples](##exemples)
-* [Documentation](##documentation)
-* [Datasets](##datasets)
-* [Evaluation](##evaluation)
-* [Maintainers](##maintainers)
-
-## Description ✨
-Gemini is a way to leverage structural information between basic blocks, but it doesn't take into account sequential relationships between instructions。DeepBCCD is a binary code clone detection method, which is improved on the basis of the Gemini method, and the final **AUC** value can reach about **99.7%**. For more specific information, please refer to paper------.
-### The DeepBCCD Model 
+### The SJBCD Model 
 ![DeepBCCD Model](https://github.com/zzjss12/assets/raw/Binary-code-clone/DeepBCCD_model.drawio.svg)
 
 ## Install 🐙
