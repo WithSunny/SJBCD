@@ -1,4 +1,4 @@
-This code draws on the idea of the code of this link: https://github.com/zqhZY/semanaly
+
 <div align="center">
   <p>
     <b>SJBCD</b>
@@ -9,7 +9,7 @@ This code draws on the idea of the code of this link: https://github.com/zqhZY/s
 </div>
 
 ---
-
+This code draws on the idea of the code of this link: https://github.com/zqhZY/semanaly
 ### The SJBCD Model 
 ![SJBCD Model]([https://github.com/zzjss12/assets/raw/Binary-code-clone/DeepBCCD_model.drawio.svg](https://github.com/WithSunny/SJBCD/blob/PAP/something_files/Dfig5.drawio.svg))
 
