@@ -51,9 +51,10 @@ The “CompiledBCB_opcode” directory contains the bytecode dataset, which is s
 | ASTNN                 |   0.992   | **0.997**  |  0.995   |
 | Code-Token-Learner    |   0.984   | 0.933  |  0.958   |
 | FA-AST                |   0.988   | 0.988  |  0.988   |
-It can be seen from the table that SJBCD method outperforms other methods in Precision, Recall and F1-score.
+
+*It can be seen from the table that SJBCD method outperforms other methods in Precision, Recall and F1-score.
 ## Maintainers 👷
-* @WithSunny
+*@WithSunny
 
 ## License ⚖️
 GPL
