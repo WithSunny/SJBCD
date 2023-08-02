@@ -41,8 +41,8 @@ The “CompiledBCB_opcode” directory contains the bytecode dataset, which is s
 ## Evaluation 🍰
 | Method                | Precision | Recall | F1-score |
 |-----------------------|-----------|--------|----------|
-| SJBCD(ours)           |   0.991   | **0.997**  |  0.994   |
-| SJBCD-cos(ours)       |   **0.996**   | 0.995  |  0.994   |
+| SJBCD(ours)           |   0.991   | **0.997**  |  **0.994**   |
+| SJBCD-cos(ours)       |   **0.996**   | 0.995  |  **0.994**   |
 | TBCCD                 |    0.9    | 0.915  |  0.908   |
 | TBCCD+token           |   0.98    | 0.953  |  0.966   |
 | TBCCD+token-type      |   0.976   | 0.964  |   0.97   |
