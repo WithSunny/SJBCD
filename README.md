@@ -36,7 +36,7 @@ For a more detailed description of the contents of SJBCD, please refer to our pa
 
 ## Datasets 👩‍💻
 The method employs a dataset obtained from **BigCloneBench**. From this dataset, we extract the compilable data, resulting in two distinct datasets: **CompiledBCB_source** and **CompiledBCB_opcode**.
-The “CompiledBCB_opcode” directory contains the bytecode dataset, which is specifically utilized by the SJBCD method. On the other hand, the “CompiledBCB_source” directory stores the dataset consisting of bytecode source code. This dataset is primarily employed by other methods(**TBCCD**,**Nicad**,**ASTNN**,**FA-AST**,**Code-Token-Learner**).			
+The “CompiledBCB_opcode” directory contains the bytecode dataset, which is specifically utilized by the SJBCD method. On the other hand, the “CompiledBCB_source” directory stores the dataset consisting of bytecode source code. This dataset is primarily employed by other methods(**TBCCD**,**Nicad**,**FA-AST**,**Code-Token-Learner**).			
 
 ## Evaluation 🍰
 | Method                | Precision | Recall | F1-score |
