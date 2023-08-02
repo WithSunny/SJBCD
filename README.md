@@ -41,14 +41,13 @@ The “CompiledBCB_opcode” directory contains the bytecode dataset, which is s
 ## Evaluation 🍰
 | Method                | Precision | Recall | F1-score |
 |-----------------------|-----------|--------|----------|
-| SJBCD(ours)           |   **0.998**   | **0.997**  |  **0.997**   |
-| SJBCD-cos(ours)       |   0.996   | **0.997**  |  0.996   |
+| SJBCD(ours)           |   0.991   | **0.997**  |  0.994   |
+| SJBCD-cos(ours)       |   **0.996**   | 0.995  |  0.994   |
 | TBCCD                 |    0.9    | 0.915  |  0.908   |
 | TBCCD+token           |   0.98    | 0.953  |  0.966   |
 | TBCCD+token-type      |   0.976   | 0.964  |   0.97   |
 | TBCCD+token+PACE      |   0.971   | 0.957  |  0.964   |
 | Nicad                 |   0.636   | 0.005  |   0.01   |
-| ASTNN                 |   0.992   | **0.997**  |  0.995   |
 | Code-Token-Learner    |   0.984   | 0.933  |  0.958   |
 | FA-AST                |   0.988   | 0.988  |  0.988   |
 
@@ -59,7 +58,6 @@ It can be seen from the table that SJBCD method outperforms other methods in Pre
 ## Reference
 **TBCCD**: https://github.com/yh1105/datasetforTBCCD<br>
 **Nicad**: https://github.com/bumper-app/nicad<br>
-**ASTNN**: https://github.com/zhangj111/astnn<br>
 **Code-Token-Learner**: https://github.com/ArcticHare105/Code-Token-Learner<br>
 **FA-AST**: https://github.com/jacobwwh/graphmatch_clone<br>
 ## License ⚖️
